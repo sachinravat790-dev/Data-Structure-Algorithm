@@ -1,0 +1,459 @@
+Bilkul 👍 Main **saare 40 Traversal questions** isi format me de raha hoon. Pehle question khud solve karna, phir niche output se check karna.
+
+# 🟢 Level 1 — Basic Traversal
+
+### Q1. Print all elements
+
+`[10, 20, 30, 40, 50]`
+
+**Output:**
+
+```text
+10 20 30 40 50
+```
+
+### Q2. Print elements in reverse order
+
+`[10, 20, 30, 40, 50]`
+
+**Output:**
+
+```text
+50 40 30 20 10
+```
+
+### Q3. Find sum of all elements
+
+`[2, 5, 7, 10, 3]`
+
+**Output:**
+
+```text
+27
+```
+
+### Q4. Find average of elements
+
+`[10, 20, 30, 40]`
+
+**Output:**
+
+```text
+25
+```
+
+### Q5. Find maximum element
+
+`[12, 5, 27, 8, 19]`
+
+**Output:**
+
+```text
+27
+```
+
+### Q6. Find minimum element
+
+`[12, 5, 27, 8, 19]`
+
+**Output:**
+
+```text
+5
+```
+
+---
+
+# 🟢 Level 2 — Traversal + Condition
+
+### Q7. Count even and odd numbers
+
+`[1, 4, 7, 8, 10, 13]`
+
+**Output:**
+
+```text
+Even = 3
+Odd = 3
+```
+
+### Q8. Count positive, negative and zero
+
+`[-2, 5, 0, -7, 8, 0, 3]`
+
+**Output:**
+
+```text
+Positive = 3
+Negative = 2
+Zero = 2
+```
+
+### Q9. Count numbers greater than X
+
+`arr = [2, 7, 4, 9, 1, 8]`
+`X = 5`
+
+**Output:**
+
+```text
+3
+```
+
+### Q10. Count numbers smaller than X
+
+`arr = [2, 7, 4, 9, 1, 8]`
+`X = 5`
+
+**Output:**
+
+```text
+3
+```
+
+### Q11. Print all even elements
+
+`[1, 4, 7, 8, 10, 13]`
+
+**Output:**
+
+```text
+4 8 10
+```
+
+### Q12. Print all elements greater than X
+
+`arr = [3, 9, 2, 15, 7, 20]`
+`X = 8`
+
+**Output:**
+
+```text
+9 15 20
+```
+
+---
+
+# 🟡 Level 3 — Searching
+
+### Q13. Check whether X exists in array
+
+`[10, 20, 30, 40, 50]`
+`X = 30`
+
+**Output:**
+
+```text
+Found
+```
+
+### Q14. Find first occurrence of X
+
+`[4, 8, 2, 8, 6]`
+`X = 8`
+
+**Output:**
+
+```text
+Index = 1
+```
+
+### Q15. Find last occurrence of X
+
+`[4, 8, 2, 8, 6]`
+`X = 8`
+
+**Output:**
+
+```text
+Index = 3
+```
+
+### Q16. Count frequency of X
+
+`[2, 4, 2, 6, 2, 8]`
+`X = 2`
+
+**Output:**
+
+```text
+Frequency = 3
+```
+
+### Q17. Find all indices of X
+
+`[5, 2, 5, 7, 5, 9]`
+`X = 5`
+
+**Output:**
+
+```text
+0 2 4
+```
+
+---
+
+# 🟡 Level 4 — Maximum / Minimum Logic
+
+### Q18. Find second largest element
+
+`[10, 5, 20, 8, 15]`
+
+**Output:**
+
+```text
+15
+```
+
+### Q19. Find second smallest element
+
+`[10, 5, 20, 8, 15]`
+
+**Output:**
+
+```text
+8
+```
+
+### Q20. Find largest and smallest element together
+
+`[7, 2, 9, 4, 1, 6]`
+
+**Output:**
+
+```text
+Maximum = 9
+Minimum = 1
+```
+
+### Q21. Find difference between maximum and minimum
+
+`[10, 4, 15, 2, 8]`
+
+**Output:**
+
+```text
+13
+```
+
+### Q22. Find maximum even element
+
+`[3, 12, 7, 20, 9, 14]`
+
+**Output:**
+
+```text
+20
+```
+
+### Q23. Find minimum odd element
+
+`[8, 5, 12, 3, 10, 7]`
+
+**Output:**
+
+```text
+3
+```
+
+---
+
+# 🟠 Level 5 — Traversal + Modification
+
+### Q24. Replace every negative number with 0
+
+`[-2, 5, -7, 8, -1]`
+
+**Output:**
+
+```text
+[0, 5, 0, 8, 0]
+```
+
+### Q25. Replace every even number with its square
+
+`[1, 2, 3, 4, 5, 6]`
+
+**Output:**
+
+```text
+[1, 4, 3, 16, 5, 36]
+```
+
+### Q26. Multiply every element by 2
+
+`[2, 4, 6, 8]`
+
+**Output:**
+
+```text
+[4, 8, 12, 16]
+```
+
+### Q27. Add 5 to every element
+
+`[10, 20, 30, 40]`
+
+**Output:**
+
+```text
+[15, 25, 35, 45]
+```
+
+### Q28. Move all negative elements to 0
+
+`[-3, 5, -2, 8, -1]`
+
+**Output:**
+
+```text
+[0, 5, 0, 8, 0]
+```
+
+---
+
+# 🔴 Level 6 — Logic Building
+
+### Q29. Check whether array is sorted in increasing order
+
+`[1, 2, 4, 5, 8]`
+
+**Output:**
+
+```text
+Yes
+```
+
+`[1, 4, 3, 5]`
+
+**Output:**
+
+```text
+No
+```
+
+### Q30. Check whether array is sorted in decreasing order
+
+`[9, 7, 5, 2]`
+
+**Output:**
+
+```text
+Yes
+```
+
+### Q31. Count how many times array changes from increasing to decreasing
+
+`[1, 3, 5, 2, 4, 6, 1]`
+
+**Output:**
+
+```text
+2
+```
+
+### Q32. Find first element greater than its previous element
+
+`[5, 5, 3, 8, 2]`
+
+**Output:**
+
+```text
+8
+```
+
+### Q33. Find first element smaller than its previous element
+
+`[2, 4, 6, 3, 8]`
+
+**Output:**
+
+```text
+3
+```
+
+---
+
+# 🔥 Level 7 — Strong Traversal
+
+### Q34. Find duplicate elements
+
+`[1, 2, 3, 2, 4, 1, 5]`
+
+**Output:**
+
+```text
+1 2
+```
+
+### Q35. Find unique elements
+
+`[1, 2, 3, 2, 4, 1, 5]`
+
+**Output:**
+
+```text
+3 4 5
+```
+
+### Q36. Find the element that occurs maximum times
+
+`[1, 2, 2, 3, 2, 4, 3]`
+
+**Output:**
+
+```text
+2
+```
+
+### Q37. Find the element that occurs minimum times
+
+`[1, 2, 2, 3, 3, 3, 4]`
+
+**Output:**
+
+```text
+1 4
+```
+
+### Q38. Find sum of elements at even indices
+
+```text
+Index:  0   1   2   3   4   5
+Array: 10  20  30  40  50  60
+```
+
+**Output:**
+
+```text
+90
+```
+
+### Q39. Find sum of elements at odd indices
+
+```text
+Index:  0   1   2   3   4   5
+Array: 10  20  30  40  50  60
+```
+
+**Output:**
+
+```text
+120
+```
+
+### Q40. Find difference between sum of even-indexed and odd-indexed elements
+
+```text
+Index:  0   1   2   3   4   5
+Array: 10  20  30  40  50  60
+```
+
+**Output:**
+
+```text
+30
+```
+
+---
+
