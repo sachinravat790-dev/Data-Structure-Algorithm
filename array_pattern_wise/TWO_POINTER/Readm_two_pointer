@@ -1,0 +1,1529 @@
+# Two Pointer – Practice Questions
+
+> **Goal:** Solve these questions yourself in C++ and practice them in VS Code.  
+> **Format:** Question + Input + Expected Output. No solution code is provided.  
+> LeetCode problems are marked beside the question.
+
+---
+
+## 🟢 Basic Level
+
+### Q1. Reverse Array
+Reverse the array using the two-pointer approach.
+
+**Input**
+```text
+[1, 2, 3, 4, 5]
+```
+
+**Expected Output**
+```text
+[5, 4, 3, 2, 1]
+```
+
+### Q2. Check Palindrome Array
+Check whether the array is a palindrome.
+
+**Input**
+```text
+[1, 2, 3, 2, 1]
+```
+
+**Expected Output**
+```text
+Palindrome
+```
+
+### Q3. Check Non-Palindrome Array
+Check whether the array is a palindrome.
+
+**Input**
+```text
+[1, 2, 3, 4, 1]
+```
+
+**Expected Output**
+```text
+Not Palindrome
+```
+
+### Q4. Reverse String
+Reverse the string using two pointers.
+
+**Input**
+```text
+"hello"
+```
+
+**Expected Output**
+```text
+"olleh"
+```
+
+### Q5. Check Palindrome String
+Check whether the string is a palindrome.
+
+**Input**
+```text
+"madam"
+```
+
+**Expected Output**
+```text
+Palindrome
+```
+
+---
+
+## 🟡 Two Pointer + Sorted Array
+
+### Q6. Pair Sum in Sorted Array — LeetCode #167
+Find a pair whose sum equals the target.
+
+**Input**
+```text
+[1, 2, 3, 4, 6, 8], target = 10
+```
+
+**Expected Output**
+```text
+(2, 8)
+```
+
+### Q7. Pair Sum Exists — LeetCode #167
+Check whether a pair exists whose sum equals the target.
+
+**Input**
+```text
+[1, 3, 5, 7, 9], target = 12
+```
+
+**Expected Output**
+```text
+Yes
+```
+
+### Q8. Pair Sum Does Not Exist — LeetCode #167
+
+**Input**
+```text
+[1, 3, 5, 7, 9], target = 20
+```
+
+**Expected Output**
+```text
+No
+```
+
+### Q9. Find All Pairs with Given Sum
+Print all pairs whose sum equals the target.
+
+**Input**
+```text
+[1, 2, 3, 4, 5, 6, 7], target = 8
+```
+
+**Expected Output**
+```text
+(1, 7), (2, 6), (3, 5)
+```
+
+### Q10. Pair Closest to Target
+Find the pair whose sum is closest to the target.
+
+**Input**
+```text
+[1, 3, 4, 7, 10], target = 15
+```
+
+**Expected Output**
+```text
+(4, 10), sum = 14
+```
+
+---
+
+## 🟡 Remove / Modify
+
+### Q11. Remove Duplicates from Sorted Array — LeetCode #26
+
+**Input**
+```text
+[1, 1, 2, 2, 3, 4, 4]
+```
+
+**Expected Output**
+```text
+[1, 2, 3, 4], length = 4
+```
+
+### Q12. Remove Element — LeetCode #27
+
+**Input**
+```text
+[3, 2, 2, 3, 4, 2], X = 2
+```
+
+**Expected Output**
+```text
+[3, 3, 4], length = 3
+```
+
+### Q13. Move Zeroes — LeetCode #283
+
+Move all zeroes to the end while keeping the order of non-zero elements.
+
+**Input**
+```text
+[0, 1, 0, 3, 12]
+```
+
+**Expected Output**
+```text
+[1, 3, 12, 0, 0]
+```
+
+### Q14. Move Negatives to Left
+Move all negative elements to the left side.
+
+**Input**
+```text
+[2, -1, 4, -3, 5, -2]
+```
+
+**Expected Output**
+```text
+One valid output: [-1, -3, -2, 2, 4, 5]
+```
+
+### Q15. Separate Even and Odd — LeetCode #905
+Move even numbers to the left and odd numbers to the right.
+
+**Input**
+```text
+[1, 2, 3, 4, 5, 6]
+```
+
+**Expected Output**
+```text
+One valid output: [6, 2, 4, 3, 5, 1]
+```
+
+### Q16. Remove Duplicates II — LeetCode #80
+Allow each element to appear at most twice.
+
+**Input**
+```text
+[1, 1, 1, 2, 2, 3]
+```
+
+**Expected Output**
+```text
+[1, 1, 2, 2, 3], length = 5
+```
+
+### Q17. Compress Consecutive Duplicates
+Keep only one element from each consecutive group.
+
+**Input**
+```text
+[1, 1, 2, 2, 2, 3, 3, 4]
+```
+
+**Expected Output**
+```text
+[1, 2, 3, 4]
+```
+
+---
+
+## 🟠 Merge / Intersection
+
+### Q18. Merge Sorted Arrays — LeetCode #88
+
+**Input**
+```text
+A = [1, 3, 5]
+B = [2, 4, 6]
+```
+
+**Expected Output**
+```text
+[1, 2, 3, 4, 5, 6]
+```
+
+### Q19. Intersection of Two Arrays — LeetCode #349
+
+**Input**
+```text
+A = [1, 2, 3, 4, 5]
+B = [2, 4, 6]
+```
+
+**Expected Output**
+```text
+[2, 4]
+```
+
+### Q20. Union of Two Sorted Arrays
+
+**Input**
+```text
+A = [1, 2, 3, 4]
+B = [2, 3, 5, 6]
+```
+
+**Expected Output**
+```text
+[1, 2, 3, 4, 5, 6]
+```
+
+---
+
+## 🔴 Medium Level
+
+### Q21. Container With Most Water — LeetCode #11
+
+**Input**
+```text
+[1, 8, 6, 2, 5, 4, 8, 3, 7]
+```
+
+**Expected Output**
+```text
+49
+```
+
+### Q22. 3Sum — LeetCode #15
+
+Find all unique triplets whose sum is `0`.
+
+**Input**
+```text
+[-1, 0, 1, 2, -1, -4]
+```
+
+**Expected Output**
+```text
+[-1, -1, 2]
+[-1, 0, 1]
+```
+
+### Q23. 3Sum — LeetCode #15
+
+**Input**
+```text
+[0, 0, 0, 0]
+```
+
+**Expected Output**
+```text
+[0, 0, 0]
+```
+
+### Q24. 3Sum Closest — LeetCode #16
+
+**Input**
+```text
+[-1, 2, 1, -4], target = 1
+```
+
+**Expected Output**
+```text
+2
+```
+
+### Q25. 4Sum — LeetCode #18
+
+**Input**
+```text
+[1, 0, -1, 0, -2, 2], target = 0
+```
+
+**Expected Output**
+```text
+[-2, -1, 1, 2]
+[-2, 0, 0, 2]
+[-1, 0, 0, 1]
+```
+
+### Q26. Boats to Save People — LeetCode #881
+
+**Input**
+```text
+[3, 2, 2, 1], limit = 3
+```
+
+**Expected Output**
+```text
+3 boats
+```
+
+### Q27. Boats to Save People — LeetCode #881
+
+**Input**
+```text
+[3, 5, 3, 4], limit = 5
+```
+
+**Expected Output**
+```text
+4 boats
+```
+
+### Q28. Assign Cookies — LeetCode #455
+
+**Input**
+```text
+children = [1, 2, 3]
+cookies = [1, 1]
+```
+
+**Expected Output**
+```text
+1
+```
+
+### Q29. Assign Cookies — LeetCode #455
+
+**Input**
+```text
+children = [1, 2]
+cookies = [1, 2, 3]
+```
+
+**Expected Output**
+```text
+2
+```
+
+---
+
+## 🔴 Advanced
+
+### Q30. Trapping Rain Water — LeetCode #42
+
+**Input**
+```text
+[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+```
+
+**Expected Output**
+```text
+6
+```
+
+### Q31. Trapping Rain Water — LeetCode #42
+
+**Input**
+```text
+[4, 2, 0, 3, 2, 5]
+```
+
+**Expected Output**
+```text
+9
+```
+
+### Q32. Valid Palindrome — LeetCode #125
+
+Ignore non-alphanumeric characters.
+
+**Input**
+```text
+"A man, a plan, a canal: Panama"
+```
+
+**Expected Output**
+```text
+True
+```
+
+### Q33. Valid Palindrome — LeetCode #125
+
+**Input**
+```text
+"race a car"
+```
+
+**Expected Output**
+```text
+False
+```
+
+### Q34. Reverse Vowels — LeetCode #345
+
+**Input**
+```text
+"hello"
+```
+
+**Expected Output**
+```text
+"holle"
+```
+
+### Q35. Reverse Vowels — LeetCode #345
+
+**Input**
+```text
+"leetcode"
+```
+
+**Expected Output**
+```text
+"leotcede"
+```
+
+### Q36. Pair with Minimum Difference
+
+**Input**
+```text
+[1, 5, 3, 19, 18, 25]
+```
+
+**Expected Output**
+```text
+Difference = 1
+Pair = (18, 19)
+```
+
+### Q37. Maximum Difference arr[j] - arr[i] — LeetCode #121 (closely related)
+
+Find maximum `arr[j] - arr[i]` where `j > i`.
+
+**Input**
+```text
+[7, 1, 5, 3, 6, 4]
+```
+
+**Expected Output**
+```text
+5
+```
+
+### Q38. Valid Palindrome II — LeetCode #680
+
+Check whether the array can become a palindrome after deleting at most one element.
+
+**Input**
+```text
+[1, 2, 3, 2, 1]
+```
+
+**Expected Output**
+```text
+Yes
+```
+
+### Q39. Valid Palindrome II — LeetCode #680
+
+**Input**
+```text
+[1, 2, 3, 4, 2, 1]
+```
+
+**Expected Output**
+```text
+No
+```
+
+### Q40. Pair Sum Closest to Zero
+
+**Input**
+```text
+[-8, -3, -1, 2, 4, 7]
+```
+
+**Expected Output**
+```text
+(-3, 2), sum = -1
+```
+
+### Q41. Pair with Maximum Product
+
+**Input**
+```text
+[-10, -3, 5, 6, -2]
+```
+
+**Expected Output**
+```text
+30
+```
+
+### Q42. Triplet with Maximum Sum
+
+**Input**
+```text
+[1, 2, 3, 4, 5, 6]
+```
+
+**Expected Output**
+```text
+15
+Triplet = (4, 5, 6)
+```
+
+### Q43. Triplet Sum Closest — LeetCode #16
+
+**Input**
+```text
+[2, 1, -1, 0, 4], target = 3
+```
+
+**Expected Output**
+```text
+3
+```
+
+### Q44. Pair with Target Difference
+
+Find pairs whose absolute difference equals the target difference.
+
+**Input**
+```text
+[1, 3, 5, 8, 12], difference = 4
+```
+
+**Expected Output**
+```text
+(1, 5), (8, 12)
+```
+
+### Q45. Three-Way Partition
+
+Partition the array into:
+1. Elements smaller than X
+2. Elements equal to X
+3. Elements greater than X
+
+**Input**
+```text
+[2, 1, 2, 3, 2, 4, 1], X = 2
+```
+
+**Expected Output**
+```text
+One valid output: [1, 1, 2, 2, 2, 3, 4]
+```
+
+---
+
+## 📌 Practice Order
+
+Start with:
+
+**Q1 → Q5** → Basic Two Pointer  
+**Q6 → Q10** → Pair Sum  
+**Q11 → Q20** → Array Modification  
+**Q21 → Q29** → Medium Problems  
+**Q30 → Q45** → Advanced Problems
+
+### 🎯 Rule
+
+For every question:
+
+1. First understand the problem.
+2. Try brute force.
+3. Then identify the two pointers.
+4. Dry run on paper.
+5. Write C++ code in VS Code.
+6. Check time and space complexity.
+
+
+Bilkul. Main tumhe **Two Pointer ke proper notes** de raha hoon — **theory + har method ka concept + kab use karna hai + pointer movement ka reason**. Abhi **questions solve nahi karenge**, sirf concept strong karenge.
+
+# 📘 TWO POINTER — COMPLETE NOTES
+
+## 1. What is Two Pointer?
+
+**Two Pointer** ek problem-solving technique hai jisme hum array/string ke **2 indexes (pointers)** ko use karke problem solve karte hain.
+
+Normal approach me hum bahut saare elements ko repeatedly check kar sakte hain.
+
+Two Pointer me hum:
+
+```text
+2 pointers
+    ↓
+intelligently move
+    ↓
+unnecessary comparisons reduce
+    ↓
+faster solution
+```
+
+### Basic idea
+
+```text
+Array:
+
+[ 10  20  30  40  50 ]
+   ↑                 ↑
+ left              right
+```
+
+Yahan:
+
+```cpp
+left = 0;
+right = n - 1;
+```
+
+---
+
+# 2. Why do we use Two Pointer?
+
+Main purpose:
+
+> **Array/string ko efficiently process karna aur unnecessary comparisons ko avoid karna.**
+
+Example:
+
+Brute Force:
+
+```text
+har element ko har element ke saath compare
+```
+
+Time:
+
+```text
+O(n²)
+```
+
+Two Pointer:
+
+```text
+left/right ko controlled way me move
+```
+
+Often:
+
+```text
+O(n)
+```
+
+ho sakta hai.
+
+⚠️ Lekin **har Two Pointer problem O(n)** nahi hoti. Agar sorting pehle karni pade, total complexity `O(n log n)` bhi ho sakti hai.
+
+---
+
+# 3. Two Pointer ke Main Methods
+
+Two Pointer ko mainly in methods me samjho:
+
+```text
+1. Opposite Direction
+2. Same Direction
+3. Slow & Fast Pointer
+4. Sorted Array Pair Method
+5. Partition / Rearrangement Method
+```
+
+Ab ek-ek ko samjho.
+
+---
+
+# METHOD 1️⃣ — Opposite Direction
+
+## Concept
+
+Ek pointer array ke **start** se aur doosra **end** se start hota hai.
+
+```text
+[ 10  20  30  40  50 ]
+   ↑                 ↑
+ left              right
+```
+
+Initialization:
+
+```cpp
+int left = 0;
+int right = n - 1;
+```
+
+Pointers generally center ki taraf move karte hain.
+
+```text
+left  → → →
+← ← ←  right
+```
+
+---
+
+## Kab use kare?
+
+Jab question me:
+
+* first aur last compare karna ho
+* array reverse karna ho
+* palindrome check karna ho
+* pair find karna ho
+* two ends ke elements ka relation ho
+
+### Common problems
+
+```text
+Reverse Array
+Palindrome
+Pair Sum
+Container With Most Water
+3Sum
+4Sum
+```
+
+---
+
+## General structure
+
+```cpp
+while(left < right) {
+
+    // condition check
+
+    left++;
+    right--;
+}
+```
+
+⚠️ Ye exact movement har problem me same nahi hoti. Condition ke according decide karna hota hai.
+
+---
+
+# METHOD 2️⃣ — Pair Sum on Sorted Array
+
+Ye **Two Pointer ka sabse important method** hai.
+
+Suppose sorted array hai:
+
+```text
+[ 1  3  5  7  9 ]
+  ↑             ↑
+ left          right
+```
+
+We consider:
+
+```text
+currentSum = arr[left] + arr[right]
+```
+
+Ab 3 cases.
+
+---
+
+## Case 1: Sum < Target
+
+```text
+sum < target
+```
+
+Hume sum **increase** karna hai.
+
+Sorted array me left side smaller values hain.
+
+Isliye:
+
+```text
+left++
+```
+
+### Reason
+
+```text
+smaller → bigger
+```
+
+Left ko aage le jaoge toh value increase hogi.
+
+---
+
+## Case 2: Sum > Target
+
+```text
+sum > target
+```
+
+Hume sum **decrease** karna hai.
+
+Right side se value chhoti karni hogi.
+
+```text
+right--
+```
+
+### Reason
+
+```text
+bigger → smaller
+```
+
+---
+
+## Case 3: Sum == Target
+
+Required condition mil gayi.
+
+```text
+answer found
+```
+
+### Golden Rule ⭐
+
+```text
+SUM < TARGET
+      ↓
+    left++
+
+SUM > TARGET
+      ↓
+    right--
+
+SUM == TARGET
+      ↓
+    Answer
+```
+
+---
+
+# METHOD 3️⃣ — Palindrome / Comparison Method
+
+Is method me bhi:
+
+```text
+left = 0
+right = n - 1
+```
+
+Lekin yahan **sum nahi nikalte**.
+
+Hum dono sides ko compare karte hain.
+
+```text
+[ 1  2  3  2  1 ]
+  ↑             ↑
+ left          right
+```
+
+Check:
+
+```text
+arr[left] == arr[right]
+```
+
+Agar equal:
+
+```text
+left++
+right--
+```
+
+Agar unequal:
+
+```text
+Not Palindrome
+```
+
+---
+
+## Main idea
+
+> **Outer elements compare karo → andar move karo → repeat karo.**
+
+Iska use:
+
+* Palindrome Array
+* Palindrome String
+* Valid Palindrome
+* Reverse comparison
+
+me hota hai.
+
+---
+
+# METHOD 4️⃣ — Same Direction / Slow-Fast
+
+Ab pointers opposite sides se nahi aayenge.
+
+Dono same side se start karenge.
+
+```text
+[ 1  2  3  4  5  6 ]
+  ↑
+ slow
+  ↑
+ fast
+```
+
+Generally:
+
+```cpp
+int slow = 0;
+int fast = 0;
+```
+
+Lekin dono ka **role different** hota hai.
+
+---
+
+## Fast Pointer ka role
+
+`fast` ka kaam:
+
+> **Array ko scan/explore karna.**
+
+So:
+
+```text
+fast → checks elements
+```
+
+---
+
+## Slow Pointer ka role
+
+`slow` ka kaam:
+
+> **Valid/required elements ki position maintain karna.**
+
+So:
+
+```text
+slow → builds/maintains answer
+```
+
+### Easy way to remember:
+
+```text
+FAST = Explorer 🔍
+SLOW = Builder 🏗️
+```
+
+---
+
+# METHOD 5️⃣ — Remove Duplicates
+
+Sorted array:
+
+```text
+[ 1  1  2  2  3 ]
+```
+
+Yahan hume unique elements maintain karne hain.
+
+Use:
+
+```text
+slow + fast
+```
+
+Concept:
+
+```text
+slow → last valid unique element
+fast → new elements search karega
+```
+
+Initially:
+
+```text
+slow
+ ↓
+[1  1  2  2  3]
+    ↑
+   fast
+```
+
+Fast jab duplicate dekhe:
+
+```text
+same → slow ko move nahi karna
+```
+
+Fast jab new value dekhe:
+
+```text
+different
+    ↓
+slow++
+    ↓
+new value place
+```
+
+### Main concept:
+
+```text
+FAST → scan
+SLOW → valid elements maintain
+```
+
+---
+
+# METHOD 6️⃣ — Remove Element
+
+Suppose kuch elements ko remove karna hai.
+
+Hum actually array se physically delete nahi karte.
+
+Instead:
+
+```text
+slow → next valid position
+fast → scan every element
+```
+
+Agar `fast` ko valid element milta hai:
+
+```text
+arr[slow] = arr[fast]
+slow++
+```
+
+Agar unwanted element hai:
+
+```text
+slow doesn't move
+fast moves
+```
+
+### Important idea:
+
+> **Slow pointer answer ka size/position maintain karta hai.**
+
+---
+
+# METHOD 7️⃣ — Move Zeroes / Rearrangement
+
+Suppose:
+
+```text
+[0, 1, 0, 3, 12]
+```
+
+Goal:
+
+```text
+non-zero elements → front
+zeroes → end
+```
+
+Yahan:
+
+```text
+fast → scan
+slow → next non-zero position
+```
+
+Conceptually:
+
+```text
+FAST
+ ↓
+[0  1  0  3  12]
+ ↑
+SLOW
+```
+
+Fast non-zero element dekhega.
+
+Then slow usko correct position par maintain karega.
+
+### Pattern:
+
+```text
+FAST = find useful element
+SLOW = place useful element
+```
+
+Ye concept bahut important hai.
+
+---
+
+# METHOD 8️⃣ — Partition / Separation
+
+Kabhi question bole:
+
+```text
+negative values left
+positive values right
+```
+
+Ya:
+
+```text
+even left
+odd right
+```
+
+Ya:
+
+```text
+0 left
+1 right
+```
+
+Toh Two Pointer ka partition concept use ho sakta hai.
+
+Pointers:
+
+```text
+left → left side
+right → right side
+```
+
+Concept:
+
+```text
+left side ko correct condition maintain karna
+right side ko correct condition maintain karna
+```
+
+Jab wrong elements milte hain, unko swap/rearrange kar sakte hain.
+
+---
+
+# METHOD 9️⃣ — Container With Most Water Type
+
+Is type me array ke **two ends** se pointers start karte hain.
+
+Conceptually:
+
+```text
+[ height values ]
+
+L                    R
+↑                    ↑
+```
+
+Hum dono boundaries ke beech ka result calculate karte hain.
+
+Important thinking:
+
+> **Kaunsa pointer move karna chahiye?**
+
+Aise questions me movement usually **smaller boundary** ke according decide hoti hai.
+
+Why?
+
+Agar smaller boundary hi limitation hai, toh larger boundary ko move karne se useful height improve nahi hoti; smaller side ko move karke better possibility search karte hain.
+
+### Lesson:
+
+Two Pointer me sirf:
+
+```text
+left++
+right--
+```
+
+important nahi hai.
+
+**Why move?**
+
+Ye sabse important hai.
+
+---
+
+# METHOD 🔟 — 3Sum / 4Sum
+
+Ye advanced Two Pointer application hai.
+
+Example concept:
+
+```text
+3Sum
+```
+
+Pehle ek element fix karte hain:
+
+```text
+        fixed
+          ↓
+[ 1  2  3  4  5  6 ]
+```
+
+Baaki part me Two Pointer:
+
+```text
+fixed | left       right
+  ↓       ↑           ↑
+[ 1  |  2   3   4   5  6 ]
+```
+
+Then pair-sum style logic use hota hai.
+
+So:
+
+```text
+3Sum =
+Fix one element
+      +
+Two Pointer for remaining part
+```
+
+Similarly:
+
+```text
+4Sum =
+Fix elements
+      +
+Two Pointer
+```
+
+---
+
+# 11. Pointer Movement ka Golden Concept
+
+Two Pointer me sabse important question:
+
+> **Pointer ko move karne ka reason kya hai?**
+
+Ye 3 things decide karti hain:
+
+### 1. Current value
+
+```text
+small?
+large?
+equal?
+```
+
+### 2. Target/condition
+
+```text
+target se kam?
+target se zyada?
+condition satisfy?
+```
+
+### 3. Sorted/order information
+
+Agar array sorted hai toh tum predict kar sakte ho:
+
+```text
+left++  → value generally increases
+right-- → value generally decreases
+```
+
+Isi information se pointer movement decide hota hai.
+
+---
+
+# 12. Two Pointer ka General Thinking Process
+
+Question dekhte hi code mat likhna.
+
+Pehle ye steps follow karo:
+
+### Step 1 — Problem ko identify karo
+
+Kya question:
+
+```text
+Pair?
+Compare?
+Reverse?
+Remove?
+Rearrange?
+```
+
+---
+
+### Step 2 — Check karo 2 positions useful hain?
+
+```text
+Yes → Two Pointer possible
+No  → another technique
+```
+
+---
+
+### Step 3 — Pointer type choose karo
+
+```text
+Opposite ends?
+        ↓
+left + right
+
+Same direction?
+        ↓
+slow + fast
+```
+
+---
+
+### Step 4 — Pointer ka role define karo
+
+Example:
+
+```text
+left  = smaller side
+right = larger side
+```
+
+or:
+
+```text
+fast = scanning
+slow = answer building
+```
+
+---
+
+### Step 5 — Movement rule define karo
+
+Before coding, ek line me bolo:
+
+```text
+"left kab move karega?"
+"right kab move karega?"
+```
+
+Agar iska answer clear nahi hai, toh code start mat karo.
+
+---
+
+# 13. Two Pointer vs Brute Force
+
+## Brute Force
+
+Pair problem:
+
+```text
+i
+ ↓
+[1 2 3 4 5]
+   j
+```
+
+Har possible pair check:
+
+```text
+O(n²)
+```
+
+---
+
+## Two Pointer
+
+Sorted array:
+
+```text
+[1 2 3 4 5]
+ ↑       ↑
+ L       R
+```
+
+Unnecessary possibilities eliminate karte jaate hain.
+
+Often:
+
+```text
+O(n)
+```
+
+after sorting.
+
+---
+
+# 14. Complexity Notes
+
+### Without sorting
+
+Agar array already sorted hai:
+
+```text
+Two Pointer = O(n)
+Space = O(1)
+```
+
+### With sorting
+
+Agar pehle sort karna pada:
+
+```text
+Sorting = O(n log n)
+Two Pointer = O(n)
+```
+
+Overall:
+
+```text
+O(n log n)
+```
+
+---
+
+# 15. Important Conditions
+
+Two Pointer use karne se pehle check karo:
+
+### ✅ Good signs
+
+```text
+Sorted array
+Pair/triplet
+Two ends
+Palindrome
+Reverse
+Remove duplicates
+Remove elements
+Partition
+Rearrangement
+```
+
+### ❌ Automatically Two Pointer mat lagao
+
+Har array problem Two Pointer nahi hoti.
+
+Agar question me:
+
+```text
+frequency
+counting
+subarray
+maximum sum
+range
+hashing
+```
+
+jaise concepts dominate kar rahe hain, toh doosri technique better ho sakti hai.
+
+---
+
+# 🧠 One-Page Revision
+
+```text
+                 TWO POINTER
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+   OPPOSITE DIRECTION       SAME DIRECTION
+          │                       │
+      left + right             slow + fast
+          │                       │
+   Start + End              Scan + Maintain
+          │                       │
+   ┌──────┼──────┐          ┌─────┼─────┐
+   │      │      │          │     │     │
+ Pair  Palindrome Reverse  Remove Duplicate Move
+ Sum                       Element           Zero
+   │
+   ├── sum < target → left++
+   │
+   ├── sum > target → right--
+   │
+   └── sum == target → answer
+```
+
+## ⭐ Sabse important 5 lines
+
+1. **Two Pointer = 2 positions ko intelligently move karna.**
+2. **Opposite Pointer:** `left = 0`, `right = n-1`.
+3. **Same Direction:** `slow` + `fast`.
+4. **Sorted Pair Sum:** `small sum → left++`, `big sum → right--`.
+5. **Pointer movement ka reason samajhna = Two Pointer master karna.**
